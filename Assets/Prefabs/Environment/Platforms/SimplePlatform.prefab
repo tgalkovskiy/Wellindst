@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9173950178166753673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4203215433963638227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dcfed1e6d8e4173aede2d04beff2247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platformGraphics: {fileID: 6372125713465054889}
+  animator: {fileID: 4104528699943379498}
+  distanceToReturnToPool: 7
+--- !u!1001 &3713492683440943415
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 710490950611631332, guid: 7d781258d2770984ba6c672f7029eb00,
+        type: 3}
+      propertyPath: m_Name
+      value: SimplePlatform
+      objectReference: {fileID: 0}
+    - target: {fileID: 710490950611631333, guid: 7d781258d2770984ba6c672f7029eb00,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 710490950611631333, guid: 7d781258d2770984ba6c672f7029eb00,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 710490950611631333, guid: 7d781258d2770984ba6c672f7029eb00,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 710490950611631333, guid: 7d781258d2770984ba6c672f7029eb00,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 710490950611631333, guid: 7d781258d2770984ba6c672f7029eb00,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 710490950611631333, guid: 7d781258d2770984ba6c672f7029eb00,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 710490950611631333, guid: 7d781258d2770984ba6c672f7029eb00,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 710490950611631333, guid: 7d781258d2770984ba6c672f7029eb00,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 710490950611631333, guid: 7d781258d2770984ba6c672f7029eb00,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 710490950611631333, guid: 7d781258d2770984ba6c672f7029eb00,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 710490950611631333, guid: 7d781258d2770984ba6c672f7029eb00,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5390105165624776694, guid: 7d781258d2770984ba6c672f7029eb00, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 7d781258d2770984ba6c672f7029eb00, type: 3}
+--- !u!1 &4203215433963638227 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 710490950611631332, guid: 7d781258d2770984ba6c672f7029eb00,
+    type: 3}
+  m_PrefabInstance: {fileID: 3713492683440943415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4104528699943379498 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 828326914522813213, guid: 7d781258d2770984ba6c672f7029eb00,
+    type: 3}
+  m_PrefabInstance: {fileID: 3713492683440943415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6372125713465054889 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7775094740922787742, guid: 7d781258d2770984ba6c672f7029eb00,
+    type: 3}
+  m_PrefabInstance: {fileID: 3713492683440943415}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506943082ed15a144958fccb0170b117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
